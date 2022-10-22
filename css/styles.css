@@ -1,0 +1,237 @@
+/*main page*/
+:root {
+  --main-font-color: #212121;
+  --secondary-font-color: #2196f3;
+  --secondary-font-family: "Raleway", sans-serif;
+  --bg-color: #ffffff;
+  --color-telmail: #757575;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-font-color);
+  background-color: var(--bg-color);
+  letter-spacing: 0.03em;
+}
+.ul {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.fpart {
+  color: var(--secondary-font-color);
+}
+.spart {
+  color: #000000;
+}
+.link {
+  text-decoration: none;
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--secondary-font-color);
+}
+.current{
+  color: var(--secondary-font-color);
+}
+.tel-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-telmail);
+}
+.tel-mail:hover,
+.tel-mail:focus {
+  color: var(--secondary-font-color);
+}
+.head-section {
+  background-color: #2f303a;
+}
+.head-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bg-color);
+}
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--bg-color);
+  background: var(--secondary-font-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #188ce8;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.feat-section,
+.wwd {
+  background-color: var(--bg-color);
+}
+.feat-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+.feat-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-telmail);
+}
+.wwd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.our-team {
+  background-color: var(--bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.post-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-telmail);
+}
+.footer-page {
+  background-color: #2f303a;
+}
+.nav-adress {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--bg-color);
+}
+.nav-adress:hover,
+.nav-adress:focus {
+  color: var(--secondary-font-color);
+}
+.footer-tel-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.spart-two {
+  color: #ffffff;
+}
+/* portfolio */
+.title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.btn-second {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.btn-second:hover,
+.btn-second:focus,
+.btn-second:active {
+  background-color: var(--secondary-font-color);
+  color: var(--bg-color);
+}
+.li-items {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-font-color);
+}
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
