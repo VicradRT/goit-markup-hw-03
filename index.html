@@ -21,15 +21,15 @@
   <header>
     <div class="header-container container">
       <nav class="header-nav">
-        <a class="link" href="./index.html" rel="nofollow noopener noreferrer"><span class="logo fpart">Web</span><span
+        <a class="link list-logo" href="./index.html" rel="nofollow noopener noreferrer"><span class="logo fpart">Web</span><span
             class="logo spart">Studio</span></a>
         <ul class="ul list-nav">
-          <li><a class="link nav current" href="./index.html">Студія</a></li>
+          <li><a class="link nav current list-link" href="./index.html">Студія</a></li>
           <li>
-            <a class="link nav" href="./portfolio.html" rel="nofollow noopener noreferrer">Портфоліо</a>
+            <a class="link nav list-link" href="./portfolio.html" rel="nofollow noopener noreferrer">Портфоліо</a>
           </li>
           <li>
-            <a class="link nav" href="" rel="nofollow noopener noreferrer">Контакти</a>
+            <a class="link nav list-link" href="" rel="nofollow noopener noreferrer">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -47,8 +47,10 @@
   <main>
     <!-- main head -->
     <section class="head-section">
-      <h1 class="head-title">Ефективні рішення для<br>вашого бізнесу</br></h1>
-      <button class="btn btn-header" type="button">Замовити послугу</button>
+      <div class="container">
+        <h1 class="head-title">Ефективні рішення для<br>вашого бізнесу</br></h1>
+        <button class="btn btn-header" type="button">Замовити послугу</button>
+    </div>
     </section>
     <!-- features -->
     <section class="feat-section">
@@ -109,23 +111,31 @@
         <ul class="ul team-container">
           <li class="our-team">
             <img src="./img/6.jpg" alt="Фото Ігоря Дем'яненко" width="270" height="260" />
-            <h3 class="name-team">Ігор Дем'яненко</h3>
+            <div class="team-content">
+              <h3 class="name-team">Ігор Дем'яненко</h3>
             <p class="post-team">Product Designer</p>
+          </div>
           </li>
           <li class="our-team">
             <img src="./img/3.jpg" alt="Фото Ольги Рєпіної" width="270" height="260" />
-            <h3 class="name-team">Ольга Рєпіна</h3>
+            <div class="team-content">
+              <h3 class="name-team">Ольга Рєпіна</h3>
             <p class="post-team">Frontend Developer</p>
+          </div>
           </li>
           <li class="our-team">
             <img src="./img/4.jpg" alt="Фото Миколи Тарасова" width="270" height="260" />
-            <h3 class="name-team">Микола Тарасов</h3>
-            <p class="post-team">Marketing</p>
+            <div class="team-content">
+              <h3 class="name-team">Микола Тарасов</h3>
+              <p class="post-team">Marketing</p>
+          </div>
           </li>
           <li class="our-team">
             <img src="./img/5.jpg" alt="Фото Михайла Єрмакова" width="270" height="260" />
-            <h3 class="name-team">Михайло Єрмаков</h3>
-            <p class="post-team">UI Designer</p>
+            <div class="team-content">
+              <h3 class="name-team">Михайло Єрмаков</h3>
+              <p class="post-team">UI Designer</p>
+          </div>
           </li>
         </ul>
       </div>
@@ -136,8 +146,8 @@
     <div class="container">
       <a class="link footer-logo" href="./index.html" rel="nofollow noopener noreferrer"><span
           class="logo fpart">Web</span><span class="logo spart-two">Studio</span></a>
-      <address>
-        <ul class="ul footer-nav">
+      <address class="adress">
+        <ul class="ul">
           <li class="footer-item"><a href="https://goo.gl/maps/7EX5AYGq3iekq83L7" class="link nav-adress"
               target="_blank" rel="nofollow noopener noreferrer">м.Київ, пр-т Лесі Українки, 26</a>
           </li>
