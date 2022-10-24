@@ -108,7 +108,6 @@ img{
 
 /* main start */
 .head-section {
-  height: 600px;
   padding: 200px 0;
   background-color: #2f303a;
 }
@@ -352,14 +351,12 @@ img{
   color: #757575;
 }
 .portfolio-nav{
-  margin-top: 94px;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 .portfolio-items{
   display: flex;
-  margin-bottom: 94px;
   margin-top: 34px;
   gap:30px;
   flex-wrap: wrap;
@@ -370,4 +367,7 @@ img{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+}
+.portfolio{
+padding: 94px 0;
 }
